@@ -1,0 +1,17 @@
+    // Author: Tahmid Zishan
+    #include <iostream>
+    #include <ostream>
+    using namespace std;
+    
+    int main(){
+        int n;
+        cin >> n;
+        if (n < 2){
+            cout << -1;
+            return 0;
+        }
+        for (int i = 1; i <= n; i++){
+            if (i * 2 <= n) cout << i * 2 << endl;
+        }
+        return 0;
+    }
