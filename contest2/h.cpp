@@ -4,6 +4,8 @@ using namespace std;
 #define nl '\n'
 
 int main(){
-    cout << "Hello";
+    int n;
+    cin >> n;
+    cout << "0 0";
     return 0;
 }
